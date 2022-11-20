@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card {
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  padding-top: 180px;
+  position: relative;
+}
+.icono-superior {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 80px;
+}
+.icono-inferior {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 80px;
+}
+.numero {
+  font-size: 80px;
+  position: absolute;
+  margin: auto;
+  transform: translateY(-50%);
+  left: 20px;
+  right: 20px;
+}
