@@ -46,9 +46,9 @@ window.onload = function() {
   iconoBot.innerHTML = iconos[tipo];
   iconoBot.classList.add("tipo");
 
-  if (nombresIconos === "diamante" || nombresIconos === "corazones") {
+  if (tipo == "diamante" || tipo == "corazones") {
     iconoTop.style.color = "red";
-    numerosOtro.style.color = "red";
+    numerosOtro.style.color = "black";
     iconoBot.style.color = "red";
   }
 };
